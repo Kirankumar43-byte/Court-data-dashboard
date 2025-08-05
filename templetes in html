@@ -1,0 +1,18 @@
+<!doctype html>
+<title>Court Data Fetcher</title>
+<h2>Search Court Case</h2>
+<form method="post">
+  <label>Case Type:</label>
+  <select name="case_type">
+    <option value="CIVIL">CIVIL</option>
+    <option value="CRIMINAL">CRIMINAL</option>
+  </select><br><br>
+  <label>Case Number:</label>
+  <input type="text" name="case_number" required><br><br>
+  <label>Filing Year:</label>
+  <input type="number" name="filing_year" required><br><br>
+  <input type="submit" value="Search">
+</form>
+{% if error %}
+  <p style="color:red;">{{ error }}</p>
+{% endif %}
