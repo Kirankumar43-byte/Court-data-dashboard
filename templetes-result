@@ -1,0 +1,10 @@
+<!doctype html>
+<title>Case Details</title>
+<h2>Case Metadata</h2>
+<ul>
+  <li><strong>Parties:</strong> {{ metadata.party_names }}</li>
+  <li><strong>Filing Date:</strong> {{ metadata.filing_date }}</li>
+  <li><strong>Next Hearing:</strong> {{ metadata.next_hearing }}</li>
+  <li><strong>Order PDF:</strong> <a href="{{ metadata.pdf_link }}" target="_blank">Download</a></li>
+</ul>
+<a href="{{ url_for('home') }}">Search Another Case</a>
