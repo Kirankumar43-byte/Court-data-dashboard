@@ -1,0 +1,14 @@
+
+---
+
+### ✅ Next Steps
+
+- Create a GitHub repo and commit all these files.
+- Push to GitHub and update README with your repository link.
+- Run locally to verify everything works (especially scraper selectors).
+- Record your demo video following the script I provided.
+
+This code is modular and easy to extend—to add real scraper parsing logic, CAPTCHA integration, unit tests, CI/CD, and pagination for multiple documents.
+
+Let me know if you'd like help filling in the actual Delhi High Court selectors or integrating CAPTCHA!
+::contentReference[oaicite:0]{index=0}
